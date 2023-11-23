@@ -1,4 +1,5 @@
 function calculateDivisibleSum(number) {
+    if (!number) throw new Error('Por favor, insira um número.');
     if (typeof number !== 'number' || !Number.isInteger(number) || number <= 0) {
         throw new Error('Por favor, insira um número inteiro positivo.');
     }

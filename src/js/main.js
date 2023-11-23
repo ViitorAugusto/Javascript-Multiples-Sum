@@ -7,3 +7,7 @@ function calculateSum() {
         document.getElementById('result').innerText = error.message;
     }
 }
+
+function clearResult() {
+    document.getElementById('result').innerText = '';
+}
