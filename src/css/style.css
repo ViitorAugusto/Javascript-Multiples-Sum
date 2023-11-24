@@ -78,7 +78,7 @@ button {
 button:hover {
     border: 1px solid #333;
     background-color: #fff;
-    color: #333; /* Altera a cor do texto no hover */
+    color: #333; 
 }
 form {
     display: flex;
@@ -86,10 +86,13 @@ form {
     gap: 10px;
 }
 span {
-    font-size: smaller;
+    font-size: 12px;
     text-align: center;
     height: 20px;
     width: 300px;
+}
+.out-of-range-error {
+    font-size: 12px;
 }
 .ph-info:hover {
     color: chocolate;
